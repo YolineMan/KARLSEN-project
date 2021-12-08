@@ -1,0 +1,52 @@
+
+
+@import url("component/detente.css");
+@import url("component/transition.css");
+@import url("component/content.css");
+@import url("component/banner.css");
+@import url("component/message.css");
+@import url("component/navbar.css");
+@import url("component/logo.css");
+@import url("component/massage.css");
+@import url("component/politique.css");
+
+body{
+	background-color: #9A806C;
+	border: black;
+	margin: 0px;
+}
+ div {
+ 	border: black;
+ }
+
+ @media(max-width: 960px) {
+	.body{
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.body{
+		width: 500px;
+	}
+}
+
+@media(max-width: 540px) {
+	.body{
+		width: 300px;
+	}
+}
+
+/*scrollbar*/
+body::-webkit-scrollbar {
+  width: 15px; 
+}
+
+body::-webkit-scrollbar-track {
+  background: white; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #9A806C; 
+  border-radius: 20px; 
+}

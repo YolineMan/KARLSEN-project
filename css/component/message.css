@@ -1,0 +1,13 @@
+
+#message{
+  background-color: white;  
+    height:160px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+#message p {
+  font-family: 'Poppins', sans sérif;
+  text-align: center;
+  font-size: 46px;
+}
